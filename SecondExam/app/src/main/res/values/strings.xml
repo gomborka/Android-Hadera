@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondExam</string>
+<string name="Exit" />
+<string name="Details" />
+<string name="Register" />
+<string name="Login" />
+</resources>

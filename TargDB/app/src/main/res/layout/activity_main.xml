@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="borka.com.mytargdb.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="80dp"
+        android:layout_height="54dp"
+       android:hint="Name.."
+        android:background="@color/colorTextView"
+        android:gravity="center"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toLeftOf="@+id/buttShowAll"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="34dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:hint="Date..."
+        android:background="@color/colorTextView"
+        android:gravity="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewName"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewName" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="54dp"
+        android:hint="Score.."
+        android:layout_marginStart="37dp"
+        android:id="@+id/textViewScore"
+        android:background="@color/colorTextView"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/buttShowAll" />
+
+    <Button
+        android:id="@+id/buttInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InsertDB"
+        android:layout_marginStart="16dp"
+        android:textAllCaps="false"
+        android:background="@color/colorMainButton"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/buttClear"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttClear" />
+
+    <Button
+        android:id="@+id/buttShowAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShowAll"
+        android:textAllCaps="false"
+        android:background="@color/colorButton"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/buttClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        android:background="@color/colorMainButton"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="162dp" />
+
+    <Button
+        android:id="@+id/buttShowOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show by ID"
+        android:textAllCaps="false"
+        android:background="@color/colorButton"
+        android:layout_marginStart="61dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextID"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Insert ID"
+        android:layout_marginStart="18dp"
+        android:background="@color/colorEditView"
+        android:gravity="center"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttShowAll"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/buttShowOne" />
+
+</android.support.constraint.ConstraintLayout>

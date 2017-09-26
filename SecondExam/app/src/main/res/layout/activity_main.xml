@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorMainActivity"
+    >
+
+    <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="118dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:hint="Password"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintLeft_toRightOf="@+id/editTextUser"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintVertical_bias="0.509"
+            android:background="@color/colorEditText"
+            android:textColor="@color/colorFontEditText"/>
+
+        <EditText
+            android:id="@+id/editTextUser"
+            android:layout_width="118dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Username"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintVertical_bias="0.509"
+            android:background="@color/colorEditText"
+            android:textColor="@color/colorFontEditText"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+           android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@color/colorButtton"
+            android:textColor="@color/colorFontButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutRegister"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@color/colorButtton"
+            android:textColor="@color/colorFontButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:textColor="@color/colorResultShow"/>
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/LayouButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/buttonDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_margin="8dp"
+            android:background="@color/colorButtton"
+            android:textColor="@color/colorFontButton"/>
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

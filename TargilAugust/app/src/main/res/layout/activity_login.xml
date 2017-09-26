@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etusernamelogin"
+        android:ems="8"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/editstyle"
+        android:hint="USER NAME"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:id="@+id/etpasswordlogin"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:background="@drawable/editstyle"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_below="@+id/etusernamelogin"
+        android:layout_alignEnd="@+id/etusernamelogin" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="זכור אותי"
+        android:id="@+id/cbremmber"
+        android:layout_below="@+id/etpasswordlogin"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="היכנס"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btlogin"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/cbremmber"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הרשם"
+        android:background="@drawable/buttonshape"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btreg"
+        android:layout_below="@+id/btlogin"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+

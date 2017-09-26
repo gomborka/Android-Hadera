@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.borka.kidgame.Personald">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etname"
+        android:textSize="25sp"
+        android:ems="8"
+        android:layout_marginTop="35dp"
+        android:hint="שם פרטי"
+        android:background="@drawable/editstylegil"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etlastname"
+        android:ems="8"
+        android:layout_marginTop="20dp"
+        android:hint="שם משפחה"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="@drawable/editstylegil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/etname"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etusernamereg"
+        android:ems="8"
+        android:hint="שם משתמש"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editstylegil"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/etlastname"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpasswordreg"
+        android:background="@drawable/editstylegil"
+        android:ems="8"
+        android:hint="סיסמה"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/etusernamereg"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שמור"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/btsave"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/etpasswordreg"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

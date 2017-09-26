@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorEditView">#dacbd0</color>
+    <color name="colorButton">#408cff</color>
+    <color name="colorCaption">#006600</color>
+     <color name="colorFontEditText">#0000FF</color>
+    <color name="colorFontButton">#FFFF00</color>
+    <color name="colorButtton">#666666</color>
+    <color name="colorResultShow">#FF3333</color>
+    <color name="colorsignupActivity">#DAE8FC</color>
+    <color name="colorTextView">#000099</color>
+       <color name="colorEditText">#b9e7cd</color>
+    <color name="colorText">#0000FF</color>
+    <color name="colorButtonFont">#FFFFFF</color>
+    <color name="colorScoreView">#edabbb</color>
+    <color name="colorResultView">#FFF2CC</color>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205651200668",
+    "project_id": "project-8770542966652296319"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205651200668:android:1391f1df6779f9e8",
+        "android_client_info": {
+          "package_name": "com.borka.signingoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205651200668-m01n7qbs7nt24o3ai5f7v2qo50pj4or8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.borka.signingoogle",
+            "certificate_hash": "55f31630ed0ae610fd9e63e4f32207b232950dba"
+          }
+        },
+        {
+          "client_id": "205651200668-r5dbvd2jgr0pi1irivtmc92tqhas52ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgHH5VPWLMx_7X0pSNUYI5q7v0KpP2PLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

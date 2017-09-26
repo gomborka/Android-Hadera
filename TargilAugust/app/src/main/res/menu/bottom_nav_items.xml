@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mapNav"
+        android:title="Map"
+        android:icon="@drawable/icons_marker_50"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/webNav"
+        android:title="Web"
+        android:icon="@drawable/icons_website_50"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/cameraNav"
+        android:title="Camera"
+        android:icon="@drawable/icons_camera_50"
+        android:visible="true"
+        app:showAsAction="always"
+
+        />
+</menu>
